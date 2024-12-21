@@ -47,7 +47,7 @@ The Number Guessing Game is an interactive command-line game where players try t
    ```
    - Clone or download the repository.
    ```
-   git clone
+   git clone https://github.com/David1izilove/home-assignments-mes
    ```
    - Install the virtual environment.
    ```
@@ -55,7 +55,7 @@ The Number Guessing Game is an interactive command-line game where players try t
    ```
    - Create a virtual environment in the project directory.
    ```
-   cd 
+   cd home-assignments-mes
    virtualenv venv
    ```
    - Activate the virtual environment.
@@ -71,7 +71,7 @@ The Number Guessing Game is an interactive command-line game where players try t
    python3 main.py
    ```
 
-### On Windows
+### On Windows 11
 
 1. **Requirements**:
 
@@ -80,13 +80,33 @@ The Number Guessing Game is an interactive command-line game where players try t
 
 2. **Steps to Run**:
 
-   - Open Command Prompt.
+   - [Download and install git](https://git-scm.com/downloads)
+   - Open terminal as admin.
    - Clone or download the repository.
-   - Navigate to the project directory using `cd`.
+   ```
+   git clone https://github.com/David1izilove/home-assignments-mes
+   ```
+   - Install the virtual environment.
+   ```
+   pip install virtualenv
+   ```
+   - Create a virtual environment in the project directory.
+   ```
+   cd .\home-assignments-mes\
+   python -m venv venv
+   ```
+   - Activate the virtual environment.
+   ```
+   .\venv\Scripts\activate
+   ```
+   - Install project dependencies.
+   ```
+   pip install -r .\requirements.txt
+   ```
    - Run the following command:
-      ```
-      python main.py
-      ```
+   ```
+   python main.py
+   ```
 
 ## Gameplay Instructions
 
@@ -143,6 +163,16 @@ The project includes a suite of tests to ensure the core functionalities work as
    ```
 
 3. Review the output to confirm all tests pass.
+
+
+## Troubleshooting
+
+### **Problem 1**:
+
+If you encounter issues activating the virtual environment on Windows 11, you might need to set the execution policy. Run the following command in PowerShell:
+```
+Set-ExecutionPolicy RemoteSigned
+```
 
 
 ## Contact
