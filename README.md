@@ -35,7 +35,7 @@ The Number Guessing Game is an interactive command-line game where players try t
 
 1. **Requirements**:
 
-   - [Python 3.x]((https://www.python.org/downloads/))
+   - [Python 3.x](https://www.python.org/downloads/)
    - SQLite (usually comes pre-installed with Python)
 
 2. **Steps to Run**:
@@ -75,7 +75,7 @@ The Number Guessing Game is an interactive command-line game where players try t
 
 1. **Requirements**:
 
-   - [Python 3.x]((https://www.python.org/downloads/))
+   - [Python 3.x](https://www.python.org/downloads/)
    - SQLite (usually comes pre-installed with Python)
 
 2. **Steps to Run**:
