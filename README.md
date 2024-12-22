@@ -110,11 +110,21 @@ The Number Guessing Game is an interactive command-line game where players try t
 
 ## Gameplay Instructions
 
-- Enter your name to start the game.
-- Guess the randomly generated 4-digit number.
-- Receive feedback (`+` for correct position, `-` for correct digit but wrong position).
-- Continue guessing until you match the correct number.
-- Exit anytime by typing `quit`.
+1. Launch the game by running the appropriate command for your operating system (see "How to Run" above).
+2. From the main menu, choose one of the following options:
+   - **Play the Game**: Start a new game session where you guess the randomly generated 4-digit number.
+   - **View Best Score**: Display the highest score in the database, including the player's name, guesses, time, and score.
+   - **View Scores (Latest 10 or All)**: Choose to view either the latest 10 games or all recorded scores in a tabular format.
+   - **Quit**: Exit the game.
+3. If you choose to play the game:
+   - Enter your name to start.
+   - Guess the randomly generated 4-digit number.
+   - Receive feedback:
+     - `+` indicates a correct digit in the correct position.
+     - `-` indicates a correct digit in the wrong position.
+   - Keep guessing until you match the number or type `quit` to exit.
+4. After successfully guessing the number, your score will be calculated based on the number of guesses and time taken.
+5. Your score will be saved in the database, and you can compare it with others using the "View Scores" option.
 
 ## Database
 
